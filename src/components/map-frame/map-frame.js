@@ -1,5 +1,5 @@
 import {Loader} from 'google-maps';
-//
+
 export default class MapFrame{
     static CLASSES = {
         container: 'map-frame__container',
