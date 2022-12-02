@@ -5,6 +5,7 @@
     padding: 20px;
     background-color: black;
     row-gap: 20px;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .map-frame__map{
@@ -15,13 +16,13 @@
     flex-basis: 100%;
 }
 .map-frame__control{
+    margin: auto;
     display: flex;
     padding: 20px;
     border-radius: 10px;
     background-color: #1c1c1c;
     border: 1px solid #2e2e2e;
     column-gap: 20px;
-    max-height: 80px;
 }
 .toggle-office,
 .toggle-stock{
