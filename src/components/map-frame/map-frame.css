@@ -1,0 +1,35 @@
+.map-frame__container{
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: black;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.map-frame__map{
+    flex-grow: 1;
+    min-height: 500px;
+    border-radius: 10px;
+    flex-basis: 100%;
+}
+.map-frame__control{
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    border: 1px solid #2e2e2e;
+    column-gap: 20px;
+}
+.toggle-office,
+.toggle-stock{
+    background-color: #0085ff;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.toggle-office:hover,
+.toggle-stock:hover{
+    opacity: 0.5;
+}
