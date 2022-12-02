@@ -10,6 +10,7 @@
 .map-frame__map{
     flex-grow: 1;
     min-height: 500px;
+    justify-content: flex-start;
     border-radius: 10px;
     flex-basis: 100%;
 }
@@ -20,6 +21,7 @@
     background-color: #1c1c1c;
     border: 1px solid #2e2e2e;
     column-gap: 20px;
+    max-height: 80px;
 }
 .toggle-office,
 .toggle-stock{
